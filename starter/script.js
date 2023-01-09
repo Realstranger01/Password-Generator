@@ -131,7 +131,7 @@ function generatePassword() {
   //Build a string of password based on the users options and from the provided characters.
   var generatedPassword = "";
 
-  if (passwordOptions.includeLowerCase == false && passwordOptions.includeUpperCase == false && passwordOptions.includeSpecialCharacters == false && passwordOptions.includeNumbers == false) {
+  if (passwordOptions.includeLowerCase == false && passwordOptions.includeUpperCase == false && passwordOptions.includeSpecialCharacters == false && passwordOptions.numericCharacters == false) {
     alert("Atleast one character type should be selected..!");
 
   } 
