@@ -124,9 +124,6 @@ function generatePassword() {
   var passwordOptions = getPasswordOptions();
   console.log(passwordOptions);
 
-  // build a new array based on the passwordOptions variable
-
-
 
   //Build a string of password based on the users options and from the provided characters.
   var generatedPassword = "";
@@ -134,7 +131,7 @@ function generatePassword() {
   if (passwordOptions.includeLowerCase == false && passwordOptions.includeUpperCase == false && passwordOptions.includeSpecialCharacters == false && passwordOptions.numericCharacters == false) {
     alert("Atleast one character type should be selected..!");
 
-  } 
+  }
   else {
     while (generatedPassword.length != passwordOptions.pwdLength) {
       //lowercase
@@ -163,12 +160,6 @@ function generatePassword() {
 
   return generatedPassword;
 
-  // create a loop that will iterate based on passwordOptions.pwdLength
-
-  //       // for each loop iteration invoke getRandom to get a random character from the new passwordOptions array
-  //     }
-  //   }
-  // }
 }
 
 // Get references to the #generate element

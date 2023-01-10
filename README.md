@@ -1,7 +1,5 @@
 # Password Generator
 
-<h3 align="center">Password Generator</h3>
-
 ## Getting Started:
 
 Simply open up the deployed link [Password Generator](https://realstranger01.github.io/Password-Generator/) and explore the website:
